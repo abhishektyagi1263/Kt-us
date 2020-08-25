@@ -1,0 +1,245 @@
+.c0{
+  border-color:transparent;
+
+
+}
+
+.card-title{
+  padding: 10%;
+}
+
+.p1{margin: 20% 20%;}
+.p1 img{ margin-bottom: 30px;width:320px;}
+
+/* .c1{margin:} */
+
+
+.part-2{
+padding: 5rem 0rem;
+background-color: #7ED3B2;
+
+}
+.c1{border-color: transparent;background-color: #EEEEEE; margin: 10px;}
+.c1 .card-body{padding-top: 3rem;padding-bottom: 3rem;}
+.c1 .card-body i{
+  padding-top: 18px;
+  padding-bottom: 20px;
+  color:#FAA613;
+
+
+}
+.sv{  padding-top: 18px;
+  padding-bottom: 20px;
+  color:#FAA613;}
+
+.ff{background-color: #FFEAD0}
+/* card team */
+/**** Sass Variables ****/
+.ff h3{margin:0% 24% 0% 24%;text-align: center; padding-bottom: 10%}
+
+.ff h6{margin:0% 24% 1% 24%;text-align: center; padding-top: 10%;
+background: -webkit-linear-gradient(#2C3E50, #4CA1AF);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; }
+.team{
+  padding:7% 0% 10%;
+  background: #ff7e5f;
+                                  /* fallback for old browsers */
+                                  background: -webkit-linear-gradient(
+                                    45deg,
+                                    #ff7e5f,
+                                    #feb47b
+                                  );
+                                  /* Chrome 10-25, Safari 5.1-6 */
+                                  background:
+                                    linear-gradient(
+                                      45deg,
+                                      #86fde8,
+                                      #acb6e5
+
+                                );
+                                  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.team h3 {
+  margin-left: 8rem;font-weight:bold;
+  margin-bottom: 8rem;
+  color:white; font-size:100px;
+  position:relative;
+
+}
+.r1{
+  margin-left: 10%;
+}
+.r2{margin-left:25%}
+h2{margin:10% 0% 2% 0%; padding-top: 40px;}
+
+.card-wrapper {
+width: 400px;
+height: 500px;
+
+}
+
+.c2 {
+
+top: 50%;
+left: 50%;
+width: 350px;
+height: 450px;
+transform: translate(-50%, -50%);
+border-radius: 16px;
+overflow: hidden;
+
+cursor: pointer;
+transition: 0.5s;
+}
+.c2 .card-image {
+
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+z-index: 2;
+background-color: #000;
+transition: .5s;
+}
+.c2:hover img {
+opacity: 0.4;
+transition: .5s;
+}
+
+.c2:hover .card-image {
+transform: translateY(-100px);
+transition: all .9s;
+}
+
+/**** Social Icons *****/
+.social-icons {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 3;
+display: flex;
+}
+.social-icons li {
+list-style: none;
+}
+.social-icons li a {
+position: relative;
+display: block;
+width: 50px;
+height: 50px;
+line-height: 50px;
+text-align: center;
+background: #fff;
+font-size: 23px;
+color: #333;
+font-weight: bold;
+margin: 0 6px;
+transition: .4s;
+transform: translateY(200px);
+opacity: 0;
+}
+
+.c2:hover .social-icons li a {
+transform: translateY(0px);
+opacity: 1;
+}
+
+.social-icons li a:hover {
+background: #000;
+transition: .2s;
+}
+.social-icons li a:hover .fab {
+color: #fff;
+}
+
+.social-icons li a .fab {
+transition: .8s;
+}
+.social-icons li a .fab:hover {
+transform: rotateY(360deg);
+color: #fff;
+}
+
+.c2:hover li:nth-child(1) a {
+transition-delay: 0.1s;
+}
+
+.c2:hover li:nth-child(2) a {
+transition-delay: 0.2s;
+}
+
+.c2:hover li:nth-child(3) a {
+transition-delay: 0.3s;
+}
+
+.c2:hover li:nth-child(4) a {
+transition-delay: 0.4s;
+}
+
+/**** Personal Details ****/
+.details {
+position: absolute;
+bottom: 0;
+left: 0;
+background: #fff;
+width: 100%;
+height: 120px;
+z-index: 1;
+padding: 10px;
+}
+.details h2 {
+margin: 30px 0;
+padding: 0;
+text-align: center;
+}
+.details h2 .job-title {
+font-size: 1rem;
+line-height: 2.5rem;
+color: #333;
+font-weight: 300;
+}
+
+.jane {
+position: absolute;
+bottom: -120px;
+left: 0;
+opacity: 0;
+background: #fff;
+width: 100%;
+height: 120px;
+z-index: 3;
+padding: 10px;
+transition: .4s;
+}
+
+
+
+
+.profile-two .social-icons li a {
+border-radius: 50%;
+}
+
+.card:hover .profile-img--two {
+transform: rotateY(180deg);
+}
+
+.card:hover .jane {
+bottom: 0;
+left: 0;
+transition-delay: 0.5s;
+opacity: 1;
+}
+
+@media only screen and (max-width: 992px) {
+  .part-2g{ margin-bottom: 30px;width:220px;}
+.team h3{margin-top:20px; font-size:48px;}
+.r1{
+  margin-left: 7%;
+}
+.r2{margin-left:10%;}
+.heropic{display: none;}
+
+
+}
